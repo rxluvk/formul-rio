@@ -1,0 +1,82 @@
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* Navbar */
+#brand-logo{
+    width: 50px;
+}
+
+.navbar.navbar-expand-lg{
+    background-color:#DF0101;
+    font-weight: bold;
+    height: 50px;
+}
+
+.navbar.navbar-expand-lg a{
+    color: #fff;
+}
+
+/* Home */
+#main-banner {
+    background-image: url("../img/pizza-banner.jpg");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-position-y: -300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+#main-banner h1 {
+    color: #ffffffcb;
+    background-color: #333333dd;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 500px;
+    font-size: 50px;
+    font-size: 35px; 
+}
+
+#main-container { /* esta formatação fará com que o rodapé fique sempre no fundo */
+    margin-bottom: 100px; /* afastar um pouco do rodapé */
+    padding: 50px 0;
+    text-align: center;
+    min-height: 50%;
+}
+
+/* formulário */
+#main-container h2 {
+    margin-bottom: 30px;
+}
+
+.row { /* a classe row vem do bootstrap negativa */
+    margin: 0;
+}
+
+#pizza-form {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#pizza-form label {
+    font-weight: bold;
+}
+
+.btn.btn-primary {
+    background-color: black;
+    border-color: black;
+    margin-top: 5px;
+}
